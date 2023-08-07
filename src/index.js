@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
-const dotenv = require('dotenv');
-dotenv.config();
+
 const port = process.env.PORT;
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', (req, res) => {
